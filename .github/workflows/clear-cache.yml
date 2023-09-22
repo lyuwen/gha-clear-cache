@@ -1,7 +1,7 @@
 name: cleanup cache from docker builds
 on:
-  # chedule:
-  #   - cron: '43 19 * * *'
+  chedule:
+    - cron: '43 19 * * *'
   workflow_dispatch:
 
 jobs:
