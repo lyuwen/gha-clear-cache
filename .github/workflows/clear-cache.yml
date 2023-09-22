@@ -27,5 +27,7 @@ jobs:
             done
           done
           echo "Done"
+        env:
+          GH_TOKEN: ${{ github.token }}
 
 
